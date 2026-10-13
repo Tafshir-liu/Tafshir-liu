@@ -6,14 +6,17 @@ My interests include digital integrated circuits, system-on-chip design and embe
 
 ## Selected projects
 
-### 8-bit Fully Differential SAR ADC
-**Team project · TSEK06, Linköping University**
+### [8-bit Fully Differential SAR ADC](projects/8-bit-sar-adc/README.md)
+**Team project · TSEK06, Linköping University · Spring 2026**
 
-A transistor-level successive approximation register (SAR) analog-to-digital converter, developed as part of a VLSI design project.
+An 8-bit, 3.3 V fully differential SAR ADC, developed through behavioural modelling, transistor-level design, physical layout and chip-level simulation.
 
-- **My contribution:** Transistor-level SAR logic modelling and SAR testbench development with a teammate.
-- **Design focus:** SAR control logic within a fully differential ADC architecture.
-- **Tools:** Cadence Virtuoso, Spectre and Verilog-A.
+- **My contribution:** SAR logic modelling, testbench development with Kun Lin, DFFSR schematic/layout design, integration and DRC/LVS verification.
+- **Architecture:** Dynamic StrongARM comparator, binary-weighted capacitive DAC and SAR control logic using 19 DFFSR elements.
+- **Reported simulation power:** 356.8 µW at transistor level under nominal typical conditions; approximately 539 µW in the integrated chip's 1-cycle simulation.
+- **Tools:** Cadence Virtuoso, Spectre, Verilog-A and MATLAB.
+
+[Explore the project, results and my contribution →](projects/8-bit-sar-adc/README.md)
 
 ### Mealy State Machine in VHDL
 **Coursework · TSTE12, Linköping University**
