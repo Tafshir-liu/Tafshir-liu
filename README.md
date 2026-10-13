@@ -29,6 +29,18 @@ An academic mixed-signal team project involving behavioral models, transistor-le
 
 **[Explore the SAR ADC case study and full figure gallery →](projects/8-bit-sar-adc/README.md)**
 
+## University digital design project
+
+### [Digital Audio Recorder with VHDL and I²C](projects/digital-audio-recorder-vhdl-i2c/README.md)
+
+**TSTE12 · Linköping University · Completed team project**
+
+Contributed to a VHDL-based digital audio recorder with a focus on **I²C peripheral communication and control**. Implemented the interface, debugged protocol timing, and supported integration with the overall recording system.
+
+**Key areas:** VHDL · I²C · Digital design · Embedded systems · Interface debugging
+
+[Read the project details →](projects/digital-audio-recorder-vhdl-i2c/README.md)
+
 ## Independent engineering portfolio projects
 
 The following are **independently created portfolio demonstrations**, with source code, documented assumptions, and tests. They are not presented as completed university courses, commercial products, or previous employer deliverables.
