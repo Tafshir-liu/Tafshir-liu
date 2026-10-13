@@ -17,22 +17,59 @@ flowchart LR
 
 *High-level functional diagram reconstructed from the group report; not the original Cadence schematic.*
 
-## Figure gallery index
+## Simulation and circuit figure gallery
 
-The original report contains circuit diagrams and simulation results, including the following selected **PDF pages**. Captions identify the source and design stage. Figure images have been extracted into a separate companion package and are **not yet hosted in this repository**.
+The figures below are reproduced from the **Group 03 team report**. They show different circuit blocks and simulation stages; they are not independently measured silicon results. Open each image for the full-size version.
 
-| PDF page | Figure content |
-| --- | --- |
-| 18 | SAR / DAC test results |
-| 28 | Comparator simulation |
-| 33 | SAR control logic waveforms |
-| 35 | Binary-weighted CDAC schematic |
-| 40 | Cycle-based ADC analysis |
-| 64 | Post-layout performance analysis |
-| 65 | Post-layout reconstructed signal / spectrum |
-| 67 | Multi-cycle performance results |
+### SAR and DAC test results
 
-Only selected pages and their labels are referenced here. All performance numbers are simulations, not fabricated-silicon measurements. This is collaborative group work and publication of original figures should respect group and university permissions.
+[![SAR and DAC test results](../18-sar-dac-test-results.jpg)](../18-sar-dac-test-results.jpg)
+
+*Testbench results for the SAR and capacitive DAC (report PDF p. 18).*
+
+### Dynamic comparator simulation
+
+[![Dynamic comparator simulation](../28-comparator-simulation.jpg)](../28-comparator-simulation.jpg)
+
+*Comparator simulation results (report PDF p. 28).*
+
+### SAR logic timing
+
+[![SAR logic timing](../33-sar-logic-waveforms.jpg)](../33-sar-logic-waveforms.jpg)
+
+*SAR controller waveform captures (report PDF p. 33).*
+
+### Capacitive DAC schematic
+
+[![Capacitive DAC schematic](../35-cdac-schematic.jpg)](../35-cdac-schematic.jpg)
+
+*Capacitive DAC circuit documentation (report PDF p. 35).*
+
+### ADC conversion analysis
+
+[![ADC conversion analysis](../40-conversion-analysis.jpg)](../40-conversion-analysis.jpg)
+
+*Cycle-based conversion analysis (report PDF p. 40).*
+
+### Post-layout analysis
+
+[![Post-layout analysis](../64-post-layout-analysis.jpg)](../64-post-layout-analysis.jpg)
+
+*Layout-stage reconstruction and performance analysis (report PDF p. 64).*
+
+### Post-layout spectrum
+
+[![Post-layout spectrum](../65-post-layout-fft.jpg)](../65-post-layout-fft.jpg)
+
+*Spectral analysis from layout-stage simulation (report PDF p. 65).*
+
+### Multi-cycle conversion results
+
+[![Multi-cycle conversion results](../67-multi-cycle-results.jpg)](../67-multi-cycle-results.jpg)
+
+*Multi-cycle reconstruction results (report PDF p. 67).*
+
+The report's results have limitations, including static-linearity issues described below. Figures are credited to the TSEK06 Group 03 team.
 
 ## My contribution
 
