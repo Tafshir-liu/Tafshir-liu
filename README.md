@@ -29,6 +29,18 @@ An academic mixed-signal team project involving behavioral models, transistor-le
 
 **[Explore the SAR ADC case study and full figure gallery →](projects/8-bit-sar-adc/README.md)**
 
+## Independent engineering portfolio projects
+
+The following are **independently created portfolio demonstrations**, with source code, documented assumptions, and tests. They are not presented as completed university courses, commercial products, or previous employer deliverables.
+
+| Project | Technologies | What it demonstrates |
+| --- | --- | --- |
+| [SAR ADC behavioral model](projects/sar-adc-behavioral-model/README.md) | Python, unittest | MSB-first SAR decision algorithm, numerical reference modeling, test cases |
+| [UART transmitter RTL](projects/uart-transmitter-rtl/README.md) | Verilog, Icarus Verilog | Clocked finite-state machine, serial 8-N-1 transmission, self-checking testbench |
+| [Three-phase power calculator](projects/three-phase-power-calculator/README.md) | Python, unittest | Balanced three-phase AC power calculations, validation, unit tests |
+
+**Try the code:** Each project README includes the prerequisites and local run/test commands. Hardware RTL has not been validated on a physical FPGA or ASIC.
+
 ## Other projects and research
 
 | Project | Technologies and focus |
