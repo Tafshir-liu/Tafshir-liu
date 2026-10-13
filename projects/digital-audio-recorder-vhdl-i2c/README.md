@@ -25,6 +25,28 @@ My primary responsibility was implementing the **I²C interface for peripheral c
 | Engineering challenges | Protocol timing, debugging, subsystem integration |
 | Project context | Digital audio recording system developed collaboratively |
 
+## Design evidence from project screenshots
+
+The available presentation screenshots show a recorder system organized around an FPGA with an audio CODEC, audio I/O, I²C peripheral-control interface, SRAM storage, recorder logic, volume/balance functions, keyboard/control interfaces, and VGA output. The screenshots also show hierarchical hardware block schematics.
+
+### FPGA device utilization
+
+A supplied compilation screenshot identifies device **EP4CE115F29C7** and shows the following resource usage:
+
+| Resource | Used | Available | Utilization |
+| --- | ---: | ---: | ---: |
+| I/O pins | 83 | 529 | 15.69% |
+| LUTs | 1,932 | 114,480 | 1.69% |
+| Registers | 994 | 114,753 | 0.85% |
+| Memory bits | 0 | 3,981,312 | 0.00% |
+| DSP 9-bit elements | 0 | 532 | 0.00% |
+
+These figures come from the **supplied compilation screenshot** and describe reported FPGA resource allocation. They do not by themselves establish measured audio quality, timing closure, hardware performance, or final system testing.
+
+### Available figures
+
+The user has provided screenshots of the system-level architecture, hierarchical design blocks, and FPGA utilization report. **Image assets have not yet been committed to this repository**, so they are not embedded below. Once the image files are published in the project folder, this section can be converted to a visual gallery with original captions and relative links.
+
 ## What I learned
 
 The project strengthened my skills in designing timing-sensitive digital interfaces, debugging hardware-description-language implementations, and coordinating interfaces within a larger embedded system.
