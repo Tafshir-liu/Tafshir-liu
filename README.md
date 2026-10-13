@@ -23,7 +23,11 @@ An academic mixed-signal team project involving behavioral models, transistor-le
 | SAR controller | 19 DFFSR elements |
 | Design tools | Cadence Virtuoso, Spectre, Verilog-A, MATLAB |
 
-**[Explore the SAR ADC case study →](projects/8-bit-sar-adc/README.md)**
+[![SAR ADC post-layout spectrum and simulation](projects/65-post-layout-fft.jpg)](projects/8-bit-sar-adc/README.md)
+
+*Selected spectrum from the TSEK06 Group 03 SAR ADC simulation report.*
+
+**[Explore the SAR ADC case study and full figure gallery →](projects/8-bit-sar-adc/README.md)**
 
 ## Other projects and research
 
