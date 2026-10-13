@@ -4,6 +4,36 @@
 
 An academic mixed-signal IC design project implementing an 8-bit fully differential successive approximation register (SAR) analog-to-digital converter. The team developed behavioural models, transistor-level circuits, physical layouts, and chip-level simulations.
 
+## Functional architecture
+
+```mermaid
+flowchart LR
+    IN["Differential analog input"] --> DAC["Differential capacitive DAC"]
+    SAR["SAR controller (19 DFFSRs)"] -->|Trial-bit control| DAC
+    DAC --> COMP["StrongARM comparator"]
+    COMP -->|Bit decision| SAR
+    SAR --> OUT["8-bit digital code"]
+```
+
+*High-level functional diagram reconstructed from the group report; not the original Cadence schematic.*
+
+## Figure gallery index
+
+The original report contains circuit diagrams and simulation results, including the following selected **PDF pages**. Captions identify the source and design stage. Figure images have been extracted into a separate companion package and are **not yet hosted in this repository**.
+
+| PDF page | Figure content |
+| --- | --- |
+| 18 | SAR / DAC test results |
+| 28 | Comparator simulation |
+| 33 | SAR control logic waveforms |
+| 35 | Binary-weighted CDAC schematic |
+| 40 | Cycle-based ADC analysis |
+| 64 | Post-layout performance analysis |
+| 65 | Post-layout reconstructed signal / spectrum |
+| 67 | Multi-cycle performance results |
+
+Only selected pages and their labels are referenced here. All performance numbers are simulations, not fabricated-silicon measurements. This is collaborative group work and publication of original figures should respect group and university permissions.
+
 ## My contribution
 
 **Md. Tafshirul Alam**
