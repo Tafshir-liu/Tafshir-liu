@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620"><rect width="1120" height="620" fill="#0b1220"/><text x="55" y="68" font-family="Arial" font-weight="bold" font-size="35" fill="#f8fafc">Digital Audio Recorder</text><text x="55" y="101" font-family="Arial" font-size="17" fill="#94a3b8">Functional architecture reconstructed from TSTE12 Group 04 presentation</text><rect x="60" y="164" width="1000" height="388" rx="21" fill="#14233a" stroke="#45617b" stroke-width="2"/><text x="90" y="201" font-size="19" font-family="Arial" fill="#93c5fd">FPGA: recorder, control and interfaces</text>
+<g font-family="Arial" font-size="19" text-anchor="middle" fill="#fff" stroke-width="2">
+<rect x="453" y="129" width="214" height="67" rx="9" fill="#155e75" stroke="#22d3ee"/><text x="560" y="169" stroke="none">Audio CODEC</text>
+<rect x="447" y="256" width="224" height="67" rx="9" fill="#1d4ed8" stroke="#60a5fa"/><text x="560" y="297" stroke="none">Audio I/O</text>
+<rect x="714" y="257" width="184" height="66" rx="9" fill="#7c3aed" stroke="#c4b5fd"/><text x="806" y="298" stroke="none">I²C control</text>
+<rect x="96" y="380" width="170" height="66" rx="9" fill="#2563eb" stroke="#93c5fd"/><text x="181" y="421" stroke="none">Recorder</text>
+<rect x="319" y="380" width="153" height="66" rx="9" fill="#2563eb" stroke="#93c5fd"/><text x="395" y="421" stroke="none">Volume</text>
+<rect x="520" y="380" width="153" height="66" rx="9" fill="#2563eb" stroke="#93c5fd"/><text x="597" y="421" stroke="none">Balance</text>
+<rect x="714" y="380" width="184" height="66" rx="9" fill="#0f766e" stroke="#5eead4"/><text x="806" y="421" stroke="none">Control interface</text>
+<rect x="100" y="485" width="190" height="49" rx="9" fill="#334155" stroke="#cbd5e1"/><text x="195" y="517" font-size="17" stroke="none">SRAM interface</text>
+<rect x="369" y="485" width="180" height="49" rx="9" fill="#334155" stroke="#cbd5e1"/><text x="459" y="517" font-size="17" stroke="none">Keyboard</text>
+<rect x="626" y="485" width="148" height="49" rx="9" fill="#334155" stroke="#cbd5e1"/><text x="700" y="517" font-size="17" stroke="none">VGA</text></g>
+<g fill="none" stroke="#60a5fa" stroke-width="4"><path d="M560 196 V256"/><path d="M560 323 V357 H180 V380"/><path d="M560 357 H597 V380"/><path d="M806 323 V380"/><path d="M671 286 H714"/><path d="M266 413 H319"/><path d="M472 413 H520"/><path d="M195 485 V446"/><path d="M459 485 V467 H806 V446"/><path d="M700 485 V467"/></g><text x="930" y="580" text-anchor="end" font-family="Arial" fill="#94a3b8" font-size="14">Illustrative redrawing, not original HDL schematic</text></svg>
