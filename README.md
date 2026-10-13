@@ -1,48 +1,64 @@
-# Hi, I’m Md. Tafshirul Alam
+# Md. Tafshirul Alam
 
-I’m pursuing a master’s degree in Electronics Engineering at Linköping University, Sweden. My background is in electrical engineering, with professional experience in power systems, substations, commissioning and maintenance.
+**MSc Electronics Engineering | VLSI & Digital IC Design | Embedded Systems**
 
-My interests include digital integrated circuits, system-on-chip design and embedded systems.
+📍 Linköping, Sweden · 🎓 Linköping University
 
-## Selected projects
+I am an Electronics Engineering master's student at Linköping University with a background in electrical engineering and professional experience in power systems. My technical interests include **digital integrated circuits, VLSI, system-on-chip design, and embedded hardware**.
+
+## Featured project
 
 ### [8-bit Fully Differential SAR ADC](projects/8-bit-sar-adc/README.md)
-**Team project · TSEK06, Linköping University · Spring 2026**
+**TSEK06 VLSI Design Project · Group 03 · Linköping University · 2026**
 
-An 8-bit, 3.3 V fully differential SAR ADC, developed through behavioural modelling, transistor-level design, physical layout and chip-level simulation.
+An academic mixed-signal team project involving behavioral models, transistor-level implementation, physical layout, and simulation of an 8-bit fully differential successive-approximation ADC.
 
-- **My contribution:** SAR logic modelling, testbench development with Kun Lin, DFFSR schematic/layout design, integration and DRC/LVS verification.
-- **Architecture:** Dynamic StrongARM comparator, binary-weighted capacitive DAC and SAR control logic using 19 DFFSR elements.
-- **Reported simulation power:** 356.8 µW at transistor level under nominal typical conditions; approximately 539 µW in the integrated chip's 1-cycle simulation.
-- **Tools:** Cadence Virtuoso, Spectre, Verilog-A and MATLAB.
+**My work:** SAR control-logic modeling, testbench development, DFFSR schematic/layout work, and verification and integration.
 
-[Explore the project, results and my contribution →](projects/8-bit-sar-adc/README.md)
+| Specification | Reported result |
+| --- | --- |
+| Resolution and supply | 8 bits; 3.3 V |
+| Transistor-level power | 356.8 µW (nominal simulation) |
+| Integrated-chip power | ~539 µW (1-cycle simulation) |
+| SAR controller | 19 DFFSR elements |
+| Design tools | Cadence Virtuoso, Spectre, Verilog-A, MATLAB |
 
-### Mealy State Machine in VHDL
-**Coursework · TSTE12, Linköping University**
+**[Explore the SAR ADC case study →](projects/8-bit-sar-adc/README.md)**
 
-VHDL laboratory work involving a Mealy finite-state machine.
+## Other projects and research
 
-- **Focus:** Sequential digital design and describing state-machine behaviour in VHDL.
-- **Language:** VHDL.
+| Project | Technologies and focus |
+| --- | --- |
+| Mealy state machine (TSTE12) | VHDL, sequential logic, finite-state-machine design |
+| Divider model (TDTS07) | SystemC/C++, hardware modeling |
+| Multijunction photovoltaic-cell research | SCAPS-1D simulation and photovoltaic-device modeling |
 
-### Divider in SystemC
-**Coursework · TDTS07, Linköping University**
+*The additional coursework source files have not yet been published.*
 
-SystemC laboratory work involving a digital divider.
+## Technical skills
 
-- **Focus:** Hardware modelling using SystemC.
-- **Language:** SystemC / C++.
+- **IC and digital hardware:** Cadence Virtuoso, Spectre, Verilog-A, VHDL, SystemC, DRC/LVS
+- **Programming and analysis:** C/C++, Python, MATLAB
+- **Electrical systems:** transformers, substations, commissioning, preventive maintenance, load calculations
+- **Other tools:** SCAPS-1D, AutoCAD Electrical, PLC programming
 
-### Multijunction Solar-Cell Research
-**First-author publication · Southeast University**
+## Experience
 
-“Performance Maximization of Hydrogenated Amorphous Silicon Multijunction PV Cell Incorporating GaAs Junction.”
+**Electrical Engineer | Bridgex Concrete Limited, Bangladesh | From March 2021**
 
-- **Focus:** Simulation of a multijunction photovoltaic cell incorporating a GaAs junction.
-- **Tool:** SCAPS-1D.
-- **Published in:** SEUJEEE, Volume 1, Issue 2, July 2021.
+Experience in industrial power distribution, transformer and substation operation, maintenance, troubleshooting, and electrical installations.
 
-## Tools and technologies
+## Education
 
-Cadence Virtuoso · Spectre · Verilog-A · VHDL · SystemC · SCAPS-1D · AutoCAD Electrical · PLC programming
+- **Master's Programme, Electronics Engineering**, Linköping University, Sweden (ongoing)
+- **BSc, Electrical and Electronic Engineering**, Southeast University, Bangladesh
+
+## Publication
+
+**“Performance Maximization of Hydrogenated Amorphous Silicon Multijunction PV Cell Incorporating GaAs Junction.”** First-author publication, *SEUJEEE*, Vol. 1, Issue 2, July 2021. Modeling with SCAPS-1D.
+
+---
+
+**Currently focused on:** Digital IC design · VLSI design and verification · SoC design · Embedded systems
+
+[Project portfolio](projects/8-bit-sar-adc/README.md) · [SAR ADC implementation notes](projects/8-bit-sar-adc/docs/implementation-notes.md)
