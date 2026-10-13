@@ -37,6 +37,10 @@ An academic mixed-signal team project involving behavioral models, transistor-le
 
 Contributed to a VHDL-based digital audio recorder with a focus on **I²C peripheral communication and control**. Implemented the interface, debugged protocol timing, and supported integration with the overall recording system.
 
+[![Recorder system architecture](projects/digital-audio-recorder-vhdl-i2c/docs/recorder-architecture.svg)](projects/digital-audio-recorder-vhdl-i2c/README.md)
+
+*System architecture reconstructed from the TSTE12 presentation screenshots.*
+
 **Key areas:** VHDL · I²C · Digital design · Embedded systems · Interface debugging
 
 [Read the project details →](projects/digital-audio-recorder-vhdl-i2c/README.md)
