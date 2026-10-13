@@ -25,6 +25,14 @@ My primary responsibility was implementing the **I²C interface for peripheral c
 | Engineering challenges | Protocol timing, debugging, subsystem integration |
 | Project context | Digital audio recording system developed collaboratively |
 
+## Visual architecture
+
+![Digital audio recorder functional architecture](docs/recorder-architecture.svg)
+
+*Reconstructed functional diagram based on the supplied TSTE12 Group 04 screenshots. The SVG is an illustrative redrawing, not an original Quartus schematic.*
+
+[FPGA resource utilization details](docs/fpga-utilization.md)
+
 ## Design evidence from project screenshots
 
 The available presentation screenshots show a recorder system organized around an FPGA with an audio CODEC, audio I/O, I²C peripheral-control interface, SRAM storage, recorder logic, volume/balance functions, keyboard/control interfaces, and VGA output. The screenshots also show hierarchical hardware block schematics.
